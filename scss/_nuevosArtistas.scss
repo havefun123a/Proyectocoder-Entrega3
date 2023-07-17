@@ -1,0 +1,23 @@
+
+
+.nuevosArtistas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-area: artista;
+    .tituloPrincipal {
+        width: 100%;
+    }
+    .videoArtista {
+        display: flex;
+        width: 100%;
+    }
+    .textoArtista {
+        width: 180px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+}

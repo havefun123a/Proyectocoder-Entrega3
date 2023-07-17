@@ -1,0 +1,13 @@
+main {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 70%;
+}
+
+.inicioMain {
+    display: grid;
+    grid-template-columns: 900px 375px;
+    grid-template-areas: "artista top" "ascenso ascenso" "descubre lanzamiento" "fav img";
+    justify-content: space-between;
+    margin-top: 100px;
+}
