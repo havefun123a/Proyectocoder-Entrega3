@@ -5,3 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.icono-star{
+
+&:hover{
+    color: rgba(212, 191, 32, 0.926);
+    transition: 0.1s;}
+}

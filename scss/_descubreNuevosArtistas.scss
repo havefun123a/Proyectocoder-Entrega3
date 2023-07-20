@@ -1,0 +1,15 @@
+.containerDescubre {
+    grid-area: descubre;
+    .descubreTitulo {
+        font-size: 30px;
+        margin: 10px;
+    }
+    .tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+}
+

@@ -1,0 +1,20 @@
+.tituloArtistas {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.formularioOrden {
+    width: 100%;
+    .ordenarPor {
+        height: 100px;
+        width: 100%;
+        align-items: center;
+        font-size: 30px;
+        display: flex;
+    }
+    .formOrden {
+        border-bottom: solid 1px;
+        padding-bottom: 20px;
+    }
+}

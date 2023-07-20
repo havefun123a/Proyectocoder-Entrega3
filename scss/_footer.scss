@@ -1,0 +1,25 @@
+footer {
+    background-color: rgb(59, 57, 57);
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 80px;
+    width: 100%;
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    .textoFooter {
+        width: 300px;
+    }
+    .iconosFooter {
+        width: 200px;
+        a {
+            font-size: 50px;
+            margin: 5px;
+            color: aliceblue;
+        }
+    }
+}

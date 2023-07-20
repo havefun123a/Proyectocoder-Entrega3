@@ -1,0 +1,26 @@
+.imagenRandom {
+    grid-area: img;
+}
+.carousel-random {
+    margin-top: 25px;
+    width: 365px;
+    box-shadow: #111211 0px 0px 20px 15px;
+}
+
+.brnPrev {
+    left: -40px;
+}
+
+.btnNext {
+    right: -40px;
+}
+
+.carousel-item img {
+    height: 627px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.pointer-event {
+    border-radius: 10px;
+}

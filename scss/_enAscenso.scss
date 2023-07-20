@@ -17,4 +17,35 @@
             border: none;
         }
     }
+    
+
 }
+
+.cartaAscenso {
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        background-color: $bg-color-container;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        box-shadow: $bx-shadow;
+        border-radius: 10px;
+        .imgArtista {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border-radius: $b-radius;
+            img{
+                height: 200px;
+                border-radius: $b-radius;
+            }
+        }
+
+        div {
+            display: flex;
+            justify-content: space-around;
+        }
+    }

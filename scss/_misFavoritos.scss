@@ -1,0 +1,22 @@
+.favContainer {
+    grid-area: fav;
+    .favoritosCartas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 30px;
+      .favoritoCarta {
+        width: 200px;
+        margin: 10px;
+        padding-bottom: 5px;
+        justify-content: flex-start;
+        img{
+          border-radius: $b-radius;
+        }
+        .botonesFav {
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
