@@ -1,5 +1,9 @@
 .containerDescubre {
     grid-area: descubre;
+    @media (max-width: 572px){
+        display: flex;
+        flex-direction: column;
+    }
     .descubreTitulo {
         font-size: 30px;
         margin: 10px;
@@ -9,6 +13,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
+    @media (max-width: 572px){
+        justify-content: space-around;
+    }
 }
 
 }

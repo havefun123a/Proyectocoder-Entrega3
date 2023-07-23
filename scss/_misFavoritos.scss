@@ -5,6 +5,12 @@
       flex-wrap: wrap;
       justify-content: space-between;
       margin-top: 30px;
+      @media (max-width: 629px){
+        justify-content: center;
+      }
+      @media (max-width: 572px){
+        justify-content: space-around;
+      }
       .favoritoCarta {
         width: 200px;
         margin: 10px;

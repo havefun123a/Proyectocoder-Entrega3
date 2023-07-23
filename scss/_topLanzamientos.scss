@@ -1,3 +1,16 @@
-.lanzamientoContainer {
-    grid-area: lanzamiento;
-  }
+    .lanzamientoContainer {
+        .topTitulo {
+            @extend %top-titulo;
+}
+.artistaSemanal {
+    p {
+        margin-bottom: 0px;
+    }
+    img {
+        width: 60px;
+        height: 40px;
+    }
+    @extend %card-top
+}
+    @include topSemanal-top10(lanzamiento)
+}

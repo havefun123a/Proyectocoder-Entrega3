@@ -7,6 +7,15 @@ footer {
     justify-items: center;
     margin-bottom: 80px;
     width: 100%;
+    @media (max-width: 840px){
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+    @media (max-width: 390px){
+        height: 700px;
+        justify-content: flex-start;
+    }
     img {
         width: 250px;
         height: 250px;

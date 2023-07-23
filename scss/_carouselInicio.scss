@@ -20,3 +20,66 @@
     height: 700px;
     border-radius: 10px;
 }
+
+@media (max-width: 1438px) and (max-width: 522px) {
+
+    .containerNav {
+    width: 80%;
+    }
+}
+@media (max-width: 1438px) {
+    .carousel-control-prev {
+    left: -90px;
+    }
+    .carousel-control-next {
+    right: -90px;
+    }
+}
+@media (max-width: 1829px) {
+    .carousel-control-prev {
+    left: -110px;
+    }
+    .carousel-control-next {
+    right: -110px;
+    }
+}
+@media (max-width: 1429px) {
+    .carousel-control-prev {
+    left: -90px;
+    }
+    .carousel-control-next {
+    right: -90px;
+    }
+}
+@media (max-width: 1200px) {
+    .carousel-control-prev {
+    left: -80px;
+    }
+    .carousel-control-next {
+    right: -80px;
+    }
+}
+@media (max-width: 1000px) {
+    .carousel-control-prev {
+    left: -60px;
+    }
+    .carousel-control-next {
+    right: -60px;
+    }
+}
+@media (max-width: 700px) {
+    .carousel-control-prev {
+    left: -45px;
+    }
+    .carousel-control-next {
+    right: -45px;
+    }
+}
+@media (max-width: 350px) {
+    .carousel-control-prev {
+    left: -40px;
+    }
+    .carousel-control-next {
+    right: -40px;
+    }
+}

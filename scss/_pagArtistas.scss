@@ -16,5 +16,47 @@
     .formOrden {
         border-bottom: solid 1px;
         padding-bottom: 20px;
+        @media (max-width: 964px){
+            height: auto;
+        }
+        form{
+            @media (max-width: 964px){
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                .inputRadio{
+                    width: 20px;
+                }
+            }
+        }
     }
 }
+
+.cartasArtistas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    justify-content: center;
+    margin-top: 50px;
+    .cartasContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media (max-width: 571px){
+            justify-content: center;
+        }
+        .cartaArtista{
+            div {
+                display: flex;
+                align-items: center;
+                height: 46px;
+                justify-content: space-around;
+            }
+            img {
+                border-radius: $b-radius;
+            }
+            @include cards(30px,20px,0px)
+        }
+    }
+}
+

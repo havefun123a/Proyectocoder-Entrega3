@@ -1,0 +1,40 @@
+@mixin cards ($marg-top,$marg-bot,$padd-bot){
+    font-size: 25px;
+        width: 200px;
+        text-align: center;
+        background-color: $bg-color-container;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: $marg-bot;
+        padding-bottom: $padd-bot;
+        margin-top: $marg-top;
+        box-shadow: $bx-shadow;
+        border-radius: 10px;
+}
+
+@mixin topSemanal-top10($grid){
+    background-color: $bg-color-container;
+    margin: 5px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    grid-area: $grid;
+    margin-top: 20px;
+    width: 365px;
+    box-shadow: $bx-shadow;
+    border-radius: 10px;
+}
+
+@mixin boton($font,$height,$width,$font-weight){
+    background-color: rgba(212, 191, 32, 0.926);
+    border-style: none;
+    font-weight: $font-weight;
+    color: rgb(42, 39, 39);
+    padding: 3px;
+    border-radius: 4px;
+    font-size: $font;
+    transition: 0.2s;
+    height: $height;
+    width: $width;
+}

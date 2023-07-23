@@ -1,31 +1,11 @@
-.top5 {
-    background-color: $bg-color-container;
-    margin: 5px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    grid-area: top;
-    margin-top: 20px;
-    width: 365px;
-    box-shadow: $bx-shadow;
-    border-radius: 10px;
+.topSemanal {
+
     .topTitulo {
-        font-size: 30px;
-        text-align: center;
-        height: 60px;
-        border-bottom: 1px solid;
-        width: 90%;
-        margin-bottom: 20px;
+        @extend %top-titulo;
     }
     .artistaSemanal {
-        width: 100%;
-        height: 50px;
-        margin: 5px;
-        display: flex;
-        justify-content: space-around;
-        font-size: 25px;
-        margin-bottom: 15px;
-        align-items: center;
+        
+        
         p {
             margin-bottom: 0px;
         }
@@ -33,5 +13,7 @@
             width: 60px;
             height: 40px;
         }
+        @extend %card-top
     }
+    @include topSemanal-top10(top)
 }

@@ -1,0 +1,84 @@
+.tituloFav h1 i {
+    font-size: 50px;
+}
+.tablaContainer {
+    text-align: center;
+    margin-top: 50px;
+    @media (max-width: 750px){
+        display: none;
+    }
+    table {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        tr {
+            .thIcono {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            background-color: $bg-color-container;
+            th img {
+                width: 60px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+/* taerjeta queri fav*/
+
+.tablaQueri {
+    display: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+    @media (max-width: 750px){
+        display: flex;
+    }
+    .tarjetaFav {
+        background-color: $bg-color-container;
+        height: 100px;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        box-shadow: $bx-shadow;
+        display: flex;
+        .tarjeta-fav-img img {
+            height: 100%;
+        }
+        .tarjeta-fav-descripcion {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            p {
+                font-size: 15px;
+            }
+        }
+        .tarjeta-fav-menu {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin-left: 5px;
+            border-left: solid black 1px;
+            padding: 0px;
+            width: 40px;
+            justify-content: center;
+        }
+
+        /* en teoria, cuando le haga hover al icono menu, 
+        tendria que habilitarse este tarjeta-fav-queri en la que se encuentras el boton play y la estrella para darle fav*/
+        .tarjeta-fav-queri {
+            height: 100px;
+            width: 100%;
+            display: none;
+            align-items: center;
+            justify-content: space-around;
+            background-color: $bg-color-container;
+        }
+    }
+}
