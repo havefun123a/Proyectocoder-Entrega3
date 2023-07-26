@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favoritos</title>
+    <meta name="description" content="En esta pagina podras encontrar todas el listado de canciones a las que el usuario selecciono como favoritas. Podras ordenar la lista por genero, mas o menos escuhado y tambien podras buscar canciones en especifico">
+    <title>CodeRecord - Favoritos</title>
     <link rel="shortcut icon" href="../multimedia/iconos/18784.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <!-- header-->
     <header>
         <div class="containerNav">
             
@@ -41,11 +41,12 @@
             <div class="tituloArtistas tituloFav">
                 <h1>Favoritos <i class="fa-solid fa-star"></i></h1>
             </div>
-            <!-- formulario para ordenar-->
+            <!-- formulario para ordenar.-->
             <div class="formularioOrden">
                 <div class=ordenarPor>
                     <h2>Ordenar por</h2>
                 </div>
+                <!--La idea de este form es que el usuario pueda ordenar su lista de favoritos-->
                 <div class="formOrden">
                     <form action="">
                         <label class="labelArt" for="genero">Genero</label>
@@ -60,7 +61,7 @@
                     </form>
                 </div>
             </div>
-        <!--Tabla de canciones-->
+        <!--Tabla de canciones. En este contenedor, la idea es que se almacenen todas las producciones que fueron faveadas por el usuario-->
         <div class="tablaContainer">
             <table>
                 <tr>
@@ -373,7 +374,7 @@
         <a href="./contactos.html"><i class="fa-regular fa-envelope"></i></a>
     </div>
 </footer>
-    <!-- Barra de escucha-->
+    <!-- Barra de escucha. La idea de este contenedor es que cada vez que el usuario de play a alguna produccion, aparezca la imagen del artista, el nombre de la produccion con su respectiva onda de sonido.-->
     <div class="barraMusica"> 
         <img src="../multimedia/img/favoritos+suelta/VILLALOBOS-664x400-1.jpg" alt="artista img">
         <i class="fa-solid fa-play"></i>

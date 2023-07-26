@@ -5,11 +5,3 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
-.inicioMain {
-    display: grid;
-    grid-template-columns: 900px 375px;
-    grid-template-areas: "artista top" "ascenso ascenso" "descubre lanzamiento" "fav img";
-    justify-content: space-between;
-    margin-top: 100px;
-}

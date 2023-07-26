@@ -12,18 +12,11 @@ nav {
         height: 100%;
         margin-bottom: 0px;
         button {
-            border-style: none;
-            background-color: $bg-color-boton;
-            color: rgb(15, 14, 14);
-            width: 100px;
-            height: 37px;
-            border-radius: 4px;
-            font-size: 20px;
-            transition: 0.2s;
             &:hover {
                 font-size: 21px;
                 text-decoration: underline;
             }
+            @include boton(18px,35px,100px,none)
         }
 
         li a {

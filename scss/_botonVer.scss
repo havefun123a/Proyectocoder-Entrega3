@@ -1,7 +1,7 @@
 .buttonVer {
     &:hover {
-        font-size: 16px;
-        text-decoration: underline;
+        font-size: 17px;
+        text-decoration: none;
     }
-    @include boton(15px,auto,auto,bold)
+    @include boton(15px,30px,70px,bold)
 }

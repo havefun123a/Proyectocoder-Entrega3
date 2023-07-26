@@ -27,7 +27,7 @@
 }
 
 @mixin boton($font,$height,$width,$font-weight){
-    background-color: rgba(212, 191, 32, 0.926);
+    background-color: $bg-color-boton;
     border-style: none;
     font-weight: $font-weight;
     color: rgb(42, 39, 39);

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <meta name="description" content="Explora el ritmo único y vanguardista de nuestro sello discográfico de música electrónica. Podes armar tu lista de producciones favoritas para poder escucharla cuando quieras">
+    <title>CodeRecord - Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="./multimedia/iconos/18784.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,13 +13,10 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-
-
 <body>
-    <!-- header-->
+    <!--Header-->
     <header>
         <div class="containerNav">
-            
             <a href="./index.html"><img src="./multimedia/iconos/18784.png" alt="icono img"></a>
             <i class="fa-solid fa-bars hamburguesa"></i>
             <nav>
@@ -36,14 +34,19 @@
                     <li><a href="./paginas/suscribite.html"><button class="btnSuscribite">Suscribite</button></a></li>
                 </ul>
             </nav>
+            <!--La idea de este contenedor es que al hacerle un Hover salga un contenedor con su formulario para iniciar sesion, pero no me salio-->
             <div class="containerIconos">
                     <p>Iniciar sesión</p>
                     <a href=""><i class="fa-solid fa-user iconoNav"></i></a>
             </div>
         </div>
     </header>
+
+<!--La idea del icono play es que se reproduzca la produccion. 
+La idea del icono de estrella es que cuando el usuario le haga click se cambie de color y dicha produccion pase a la lista de favoritos-->
+
     <main class="inicioMain">
-<!-- Nuevos artistas-->
+<!-- Nuevos artistas. En este contenedor se publicaria sesiones live de los nuevos artistas que se sumen a CodeRecord-->
         <div class="nuevosArtistas">
             <div class="tituloPrincipal"><h1>Nuevos artistas</h1></div>
                 <div class="videoArtista"><div id="carouselExampleCaptions" class="carousel slide inicioArtista">
@@ -83,7 +86,7 @@
                     </div>
                 </div>
         </div>
-<!-- Top 10 semanal-->
+<!-- Top 10 semanal. En este contenedor se publicaria las producciones que tengan mayor reproduccion en la semana-->
         <div class=" topSemanal">
             <div class="topTitulo"><h2>Top 10 semanal</h2>
             </div>
@@ -148,57 +151,59 @@
                 <img src="./multimedia/img/en ascenso/artworks-qNZ9Adg9qsszwoOR-QsdeXQ-t500x500.jpg" alt="artista img">
             </div>
         </div>
-<!-- En ascenso-->
+<!-- En ascenso. En este contenedor se publicarian a los nuevos artistas que estan subiendo su popularidad mediante reproducciones/favs-->
         <div class="ascenso">
-            <div class="tituloAscenso"><h3>En Ascenso</h3></div>
+            <div class="tituloAscenso"><h2>En Ascenso</h2></div>
             <div class="cartaAscenso">
                 <img class="imgArtista" src="./multimedia/img/en ascenso/500x500.jpg" alt="artista img">
-                <h4>tINI</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>tINI</h3>
+                <p>Alemania, Munich</p>
+                <p>Genero: minimal</p>
+                <div>
+                    <i class="fa-solid fa-star icono-star"></i>
+                    <button class="buttonVer">Ver mas</button>
+                </div>
+            </div>            <div class="cartaAscenso">
+                <img class="imgArtista" src="./multimedia/img/en ascenso/500x500.jpg" alt="artista img">
+                <h3>tINI</h3>
+                <p>Alemania, Munich</p>
+                <p>Genero: minimal</p>
+                <div>
+                    <i class="fa-solid fa-star icono-star"></i>
+                    <button class="buttonVer">Ver mas</button>
+                </div>
+            </div>            <div class="cartaAscenso">
+                <img class="imgArtista" src="./multimedia/img/en ascenso/500x500.jpg" alt="artista img">
+                <h3>tINI</h3>
+                <p>Alemania, Munich</p>
+                <p>Genero: minimal</p>
+                <div>
+                    <i class="fa-solid fa-star icono-star"></i>
+                    <button class="buttonVer">Ver mas</button>
+                </div>
+            </div>            <div class="cartaAscenso">
+                <img class="imgArtista" src="./multimedia/img/en ascenso/500x500.jpg" alt="artista img">
+                <h3>tINI</h3>
+                <p>Alemania, Munich</p>
+                <p>Genero: minimal</p>
                 <div>
                     <i class="fa-solid fa-star icono-star"></i>
                     <button class="buttonVer">Ver mas</button>
                 </div>
             </div>
-            <div class="cartaAscenso">
-            <img class="imgArtista" src="./multimedia/img/en ascenso/500x500.jpg" alt="artista img">
-            <h4>tINI</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <div>
-                <i class="fa-solid fa-star icono-star"></i>
-                <button class="buttonVer">Ver mas</button>
-            </div>
-            </div>
-            <div class="cartaAscenso">
-        <img class="imgArtista" src="./multimedia/img/en ascenso/500x500.jpg" alt="artista img">
-        <h4>tINI</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <div>
-            <i class="fa-solid fa-star icono-star"></i>
-            <button class="buttonVer">Ver mas</button>
         </div>
-            </div>
-            <div class="cartaAscenso">
-    <img class="imgArtista" src="./multimedia/img/en ascenso/500x500.jpg" alt="artista img">
-    <h4>tINI</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div>
-        <i class="fa-solid fa-star icono-star"></i>
-        <button class="buttonVer">Ver mas</button>
-    </div>
-            </div>
-        </div>
-<!-- Descubre nuevos artistas-->
+<!-- Descubre nuevos artistas. En este contenedor se publicaria a los nuevos artistas que se sumen a CordeRecord-->
         <div class="containerDescubre">
             <div class="descubreTitulo">
-                <h3>Descubre nuevos artistas</h3>
+                <h2>Descubre nuevos artistas</h2>
             </div>
             <div class="tarjetas">
             <div class="cartaAscenso">
                 <div class="imgArtista">
                     <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
-                    <h4>Artista</h4>
-                    <p>Informacion del artista</p>
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
                     <div>
                         <i class="fa-solid fa-play"></i>
                         <i class="fa-solid fa-star icono-star"></i>
@@ -208,9 +213,10 @@
             </div>
             <div class="cartaAscenso">
                 <div class="imgArtista">
-                    <img src="./multimedia/img/nuevos/5760.webp" alt="artista img">
-                    <h4>Artista</h4>
-                    <p>Informacion del artista</p>
+                    <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
                     <div>
                         <i class="fa-solid fa-play"></i>
                         <i class="fa-solid fa-star icono-star"></i>
@@ -220,9 +226,10 @@
             </div>
             <div class="cartaAscenso">
                 <div class="imgArtista">
-                    <img src="./multimedia/img/nuevos/Djebali_bY_MarOne.jpg" alt="artista img">
-                    <h4>Artista</h4>
-                    <p>Informacion del artista</p>
+                    <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
                     <div>
                         <i class="fa-solid fa-play"></i>
                         <i class="fa-solid fa-star icono-star"></i>
@@ -232,9 +239,10 @@
             </div>
             <div class="cartaAscenso">
                 <div class="imgArtista">
-                    <img src="./multimedia/img/nuevos/Franco-Cinelli-miniatura.png" alt="artista img">
-                    <h4>Artista</h4>
-                    <p>Informacion del artista</p>
+                    <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
                     <div>
                         <i class="fa-solid fa-play"></i>
                         <i class="fa-solid fa-star icono-star"></i>
@@ -244,33 +252,23 @@
             </div>
             <div class="cartaAscenso">
                 <div class="imgArtista">
-                    <img src="./multimedia/img/nuevos/IMG_0867-768x512-1-e1624318083174.jpg" alt="artista img">
-                    <h4>Artista</h4>
-                    <p>Informacion del artista</p>
+                    <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
                     <div>
                         <i class="fa-solid fa-play"></i>
                         <i class="fa-solid fa-star icono-star"></i>
                         <button class="buttonVer">Ver mas</button>
                     </div>
                 </div>
-            </div>
-            <div class="cartaAscenso">
-            <div class="imgArtista">
-                <img src="./multimedia/img/nuevos/Jorge_Savoretti_Press_Pic_05.webp" alt="artista img">
-                <h4>Artista</h4>
-                <p>Informacion del artista</p>
-                <div>
-                    <i class="fa-solid fa-play"></i>
-                    <i class="fa-fa-solid fa-star icono-star"></i>
-                    <button class="buttonVer">Ver mas</button>
-                </div>
-            </div>
             </div>
             <div class="cartaAscenso">
                 <div class="imgArtista">
-                    <img src="./multimedia/img/nuevos/Jorge_Savoretti_Press_Pic_05.webp" alt="artista img">
-                    <h4>Artista</h4>
-                    <p>Informacion del artista</p>
+                    <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
                     <div>
                         <i class="fa-solid fa-play"></i>
                         <i class="fa-solid fa-star icono-star"></i>
@@ -279,23 +277,39 @@
                 </div>
             </div>
             <div class="cartaAscenso">
-                    <div class="imgArtista">
-                        <img src="./multimedia/img/nuevos/Jorge_Savoretti_Press_Pic_05.webp" alt="artista img">
-                        <h4>Artista</h4>
-                        <p>Informacion del artista</p>
-                        <div>
-                            <i class="fa-solid fa-play"></i>
-                            <i class="fa-solid fa-star icono-star"></i>
-                            <button class="buttonVer">Ver mas</button>
-                        </div>
+                <div class="imgArtista">
+                    <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
+                    <div>
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-star icono-star"></i>
+                        <button class="buttonVer">Ver mas</button>
                     </div>
+                </div>
+            </div>
+            <div class="cartaAscenso">
+                <div class="imgArtista">
+                    <img src="./multimedia/img/nuevos/45347.jpg" alt="artista img">
+                    <h3>Artista</h3>
+                    <p>Alemania, Munich</p>
+                    <p>Genero: minimal</p>
+                    <div>
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-star icono-star"></i>
+                        <button class="buttonVer">Ver mas</button>
+                    </div>
+                </div>
             </div>
             </div>
         </div>
 
-<!-- Top 10 lanzamientos-->
+<!-- Top 10 lanzamientos. En este contenedor se publicaria los nuevos lanzamientos mas escuchados-->
         <div class="lanzamientoContainer">
-            <h3 class="lanzamiento">Top 10 lanzamientos</h3>
+            <div class="topTitulo">
+                <h2 class="lanzamiento">Top 10 lanzamientos</h2>
+            </div>
             <div class="artistaSemanal tarjetaLanzamiento"> 
                 <i class="fa-solid fa-play"></i>
                 <i class="fa-solid fa-star icono-star"></i>
@@ -358,7 +372,7 @@
             </div>
         </div>
 
-<!-- Mis favoritos-->
+<!-- Mis favoritos. En este contenedor se publicaria los astistas mas escuchados del usuario-->
             <div class="favContainer">
                 <div class="favoritoTitulo">
                     <h3>Tus favoritos <i class="fa-regular fa-star"></i></h3>
@@ -439,7 +453,7 @@
                 </div>
             </div>
 
-<!-- Carrousel random-->
+<!-- Carrousel random. En este carousel se publicaria la imagen de los artistas mas destacados de la semana-->
 <div id="carouselExampleAutoplaying" class="carousel slide carousel-random" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -473,7 +487,7 @@
         <a href="./paginas/contactos.html"><i class="fa-regular fa-envelope"></i></a>
     </div>
 </footer>
-    <!-- Barra de escucha-->
+    <!-- Barra de escucha. La idea de este contenedor es que cada vez que el usuario de play a alguna produccion, aparezca la imagen del artista, el nombre de la produccion con su respectiva onda de sonido.-->
     <div class="barraMusica">
         <img src="./multimedia/img/favoritos+suelta/VILLALOBOS-664x400-1.jpg" alt="artista img">
         <i class="fa-solid fa-play"></i>
