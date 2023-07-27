@@ -215,7 +215,7 @@ nav ul button {
   border-radius: 4px;
   font-size: 18px;
   transition: 0.2s;
-  height: 35px;
+  height: 40px;
   width: 100px;
 }
 nav ul button:hover {
@@ -496,14 +496,8 @@ nav ul li input {
   border-radius: 10px;
 }
 .cartaAscenso .imgArtista {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
   border-radius: 10px 10px 0px 0px;
-}
-.cartaAscenso .imgArtista img {
   height: 200px;
-  border-radius: 10px 10px 0px 0px;
 }
 .cartaAscenso div {
   display: flex;
@@ -663,6 +657,10 @@ footer img {
 footer .textoFooter {
   width: 300px;
 }
+footer .textoFooter p {
+  text-align: center;
+  margin-top: 30px;
+}
 footer .iconosFooter {
   width: 200px;
 }
@@ -776,6 +774,7 @@ footer .iconosFooter a {
 }
 .cartasArtistas .cartasContainer .cartaArtista img {
   border-radius: 10px 10px 0px 0px;
+  height: 200px;
 }
 
 .tituloFav h1 i {
@@ -885,6 +884,13 @@ footer .iconosFooter a {
 }
 .mainCont .containerContacto .contactoTitulo h1 {
   font-size: 50px;
+}
+.mainCont .containerContacto .infoContacto {
+  padding: 10px;
+}
+.mainCont .containerContacto .infoContacto p {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 .mainCont .containerContacto .logoContacto img {
   width: 100%;

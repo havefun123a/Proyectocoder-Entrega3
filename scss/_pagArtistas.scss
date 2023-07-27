@@ -54,6 +54,7 @@
             }
             img {
                 border-radius: $b-radius;
+                height: 200px;
             }
             @include cards(30px,20px,0px)
         }

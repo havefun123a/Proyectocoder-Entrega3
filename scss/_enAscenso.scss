@@ -25,14 +25,8 @@
 
 .cartaAscenso {
         .imgArtista {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
             border-radius: $b-radius;
-            img{
                 height: 200px;
-                border-radius: $b-radius;
-            }
         }
 
         div {

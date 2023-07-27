@@ -1,0 +1,5 @@
+La idea de este sitio web es una especie de sello discografico mezclado con spotify, en el cual se publicaran las producciones de gente que quiera meterse en el mundo de la musica y hacerse conocer.
+Los usuarios que se registren podran armar encontrarse con la pagina de inicio, en donde el usuario podra ver los nuevos lanzamientos , lo mas escuchado etc.
+En la pagina de artistas se encontraran varios cuadros de los artistas para que puedan ingresar al perfil de este y escuchar sus producciones. Podes ordenar por orden alfabetico, buscar alguien en especial etc.
+En la pagina favorito se almacenan las producciones que el usuario le dio favorito haciendo click en la estrella (cuando le des fav, la estrella va a cambiar de color) en una lista en la cual va a poder ordenar por orden etc y para buscar alguna produccion en especifico
+Y en la parte de abajo de la pagina se podra ver una especie de barra de musica. Cuando el usuario haga click en play, se va a reproducir y en la barra se encontrara el nombre la imagen la onda de sonido de la produccion etc
