@@ -5,8 +5,11 @@
     align-items: center;
     flex-wrap: wrap;
     grid-area: ascenso;
-    @media (max-width: 574px){
-        flex-direction: column;
+    @media (max-width: 1234px){
+        width: 80%;
+    }
+    @media (max-width: 499px){
+        justify-content: center;
     }
     .tituloAscenso {
         font-size: 30px;
@@ -15,6 +18,9 @@
         margin: 5px;
         display: flex;
         align-items: center;
+        @media (max-width: 499px){
+            width: 100%;
+        }
         h3 {
             border: none;
         }
@@ -27,6 +33,7 @@
         .imgArtista {
             border-radius: $b-radius;
                 height: 200px;
+                object-fit: cover;
         }
 
         div {

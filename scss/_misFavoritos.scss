@@ -1,5 +1,6 @@
 .favContainer {
     grid-area: fav;
+    width: 95%;
     .favoritosCartas {
       display: flex;
       flex-wrap: wrap;
@@ -12,7 +13,7 @@
         justify-content: space-around;
       }
       .favoritoCarta {
-        width: 200px;
+        width: 180px;
         margin: 10px;
         padding-bottom: 5px;
         justify-content: flex-start;

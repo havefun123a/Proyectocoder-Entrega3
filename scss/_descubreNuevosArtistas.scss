@@ -1,5 +1,6 @@
 .containerDescubre {
     grid-area: descubre;
+    width: 95%;
     @media (max-width: 572px){
         display: flex;
         flex-direction: column;

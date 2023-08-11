@@ -21,9 +21,13 @@
     justify-content: center;
     grid-area: $grid;
     margin-top: 20px;
-    width: 365px;
+    width: 345px;
     box-shadow: $bx-shadow;
     border-radius: 10px;
+    height: fit-content;
+    @media (max-width: 423px){
+        width: 95%;
+    }
 }
 
 @mixin boton($font,$height,$width,$font-weight){

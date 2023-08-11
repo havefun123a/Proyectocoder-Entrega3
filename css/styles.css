@@ -17,7 +17,6 @@
 .lanzamientoContainer .topTitulo, .topSemanal .topTitulo {
   font-size: 30px;
   text-align: center;
-  height: 50px;
   border-bottom: 1px solid;
   width: 90%;
   margin-bottom: 20px;
@@ -60,24 +59,25 @@ main {
   margin-bottom: 150px;
   width: 70%;
 }
+@media (max-width: 715px) {
+  main {
+    width: 100%;
+    padding: 10px;
+  }
+}
 
 .inicioMain {
   display: grid;
-  grid-template-columns: 900px 375px;
-  grid-template-areas: "artista top" "ascenso ascenso" "descubre lanzamiento" "fav img";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "artista artista artista top" "ascenso ascenso ascenso ascenso" "descubre descubre descubre lanzamiento" "fav fav fav img";
   justify-content: space-between;
   margin-top: 100px;
 }
-@media (max-width: 1829px) {
+@media (max-width: 1387px) {
   .inicioMain {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-@media (max-width: 1438px) and (max-width: 522px) {
-  .inicioMain {
-    width: 80%;
   }
 }
 
@@ -117,7 +117,7 @@ header .containerNav {
 @media (max-width: 1145px) {
   header .containerNav {
     padding: 0px 5px 0px 5px;
-    width: 90%;
+    width: 100%;
   }
 }
 @media (max-width: 1145px) {
@@ -247,81 +247,31 @@ nav ul li input {
   align-items: center;
   flex-wrap: wrap;
   grid-area: artista;
-}
-@media (max-width: 1829px) {
-  .nuevosArtistas {
-    flex-direction: column;
-    width: 100%;
-  }
+  width: 95%;
 }
 .nuevosArtistas .tituloPrincipal {
   width: 100%;
 }
 .nuevosArtistas .videoArtista {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
-@media (max-width: 1829px) {
-  .nuevosArtistas .videoArtista {
-    flex-direction: column;
-  }
-}
-@media (max-width: 1438px) {
-  .nuevosArtistas .videoArtista {
-    flex-direction: column;
-    width: 100%;
-  }
-}
-@media (max-width: 1040px) {
-  .nuevosArtistas .videoArtista {
-    flex-direction: column;
-  }
-}
-@media (max-width: 1829px) {
-  .nuevosArtistas .videoArtista iframe {
-    height: 800px;
-    width: 800px;
-  }
-}
-@media (max-width: 1438px) {
-  .nuevosArtistas .videoArtista iframe {
-    height: 600px;
-    width: 100%;
-  }
-}
-@media (max-width: 1040px) {
-  .nuevosArtistas .videoArtista iframe {
-    height: 500px;
-    width: 100%;
-  }
-}
 .nuevosArtistas .textoArtista {
-  width: 180px;
   font-size: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-left: 20px;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
 }
-@media (max-width: 1829px) {
-  .nuevosArtistas .textoArtista {
-    margin-left: 0px;
-    margin-top: 30px;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-  }
+.nuevosArtistas .textoArtista .textoInicio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
-@media (max-width: 1438px) {
-  .nuevosArtistas .textoArtista {
-    height: auto;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    margin-left: 0px;
-    flex-direction: row;
-  }
+.nuevosArtistas .textoArtista .textoInicio p {
+  margin-bottom: 0px;
 }
 @media (max-width: 1829px) {
   .nuevosArtistas .textoArtista .textoInicio {
@@ -338,6 +288,9 @@ nav ul li input {
 }
 .nuevosArtistas .textoArtista .botonesInicio {
   height: 40px;
+  width: 110px;
+  display: flex;
+  align-items: center;
 }
 @media (max-width: 1829px) {
   .nuevosArtistas .textoArtista .botonesInicio {
@@ -444,9 +397,10 @@ nav ul li input {
   justify-content: center;
   grid-area: top;
   margin-top: 20px;
-  width: 365px;
+  width: 345px;
   box-shadow: #111212 0px 0px 20px 5px;
   border-radius: 10px;
+  height: fit-content;
 }
 .topSemanal .artistaSemanal p {
   margin-bottom: 0px;
@@ -454,6 +408,11 @@ nav ul li input {
 .topSemanal .artistaSemanal img {
   width: 60px;
   height: 40px;
+}
+@media (max-width: 423px) {
+  .topSemanal {
+    width: 95%;
+  }
 }
 
 .ascenso {
@@ -464,9 +423,14 @@ nav ul li input {
   flex-wrap: wrap;
   grid-area: ascenso;
 }
-@media (max-width: 574px) {
+@media (max-width: 1234px) {
   .ascenso {
-    flex-direction: column;
+    width: 80%;
+  }
+}
+@media (max-width: 499px) {
+  .ascenso {
+    justify-content: center;
   }
 }
 .ascenso .tituloAscenso {
@@ -476,6 +440,11 @@ nav ul li input {
   margin: 5px;
   display: flex;
   align-items: center;
+}
+@media (max-width: 499px) {
+  .ascenso .tituloAscenso {
+    width: 100%;
+  }
 }
 .ascenso .tituloAscenso h3 {
   border: none;
@@ -498,6 +467,7 @@ nav ul li input {
 .cartaAscenso .imgArtista {
   border-radius: 10px 10px 0px 0px;
   height: 200px;
+  object-fit: cover;
 }
 .cartaAscenso div {
   display: flex;
@@ -523,6 +493,7 @@ nav ul li input {
 
 .favContainer {
   grid-area: fav;
+  width: 95%;
 }
 .favContainer .favoritosCartas {
   display: flex;
@@ -541,7 +512,7 @@ nav ul li input {
   }
 }
 .favContainer .favoritosCartas .favoritoCarta {
-  width: 200px;
+  width: 180px;
   margin: 10px;
   padding-bottom: 5px;
   justify-content: flex-start;
@@ -556,6 +527,7 @@ nav ul li input {
 
 .containerDescubre {
   grid-area: descubre;
+  width: 95%;
 }
 @media (max-width: 572px) {
   .containerDescubre {
@@ -587,9 +559,10 @@ nav ul li input {
   justify-content: center;
   grid-area: lanzamiento;
   margin-top: 20px;
-  width: 365px;
+  width: 345px;
   box-shadow: #111212 0px 0px 20px 5px;
   border-radius: 10px;
+  height: fit-content;
 }
 .lanzamientoContainer .artistaSemanal p {
   margin-bottom: 0px;
@@ -597,6 +570,11 @@ nav ul li input {
 .lanzamientoContainer .artistaSemanal img {
   width: 60px;
   height: 40px;
+}
+@media (max-width: 423px) {
+  .lanzamientoContainer {
+    width: 95%;
+  }
 }
 
 .imagenRandom {
@@ -607,14 +585,12 @@ nav ul li input {
   margin-top: 25px;
   width: 365px;
   box-shadow: #111211 0px 0px 20px 15px;
+  height: fit-content;
 }
-
-.brnPrev {
-  left: -40px;
-}
-
-.btnNext {
-  right: -40px;
+@media (max-width: 416px) {
+  .carousel-random {
+    width: 90%;
+  }
 }
 
 .carousel-item img {
@@ -641,7 +617,6 @@ footer {
   footer {
     display: flex;
     flex-direction: column;
-    height: 600px;
   }
 }
 @media (max-width: 390px) {
@@ -696,6 +671,11 @@ footer .iconosFooter a {
 }
 .barraMusica p {
   margin-bottom: 0px;
+}
+@media (max-width: 422px) {
+  .barraMusica p {
+    display: none;
+  }
 }
 
 .tituloArtistas {
@@ -775,6 +755,7 @@ footer .iconosFooter a {
 .cartasArtistas .cartasContainer .cartaArtista img {
   border-radius: 10px 10px 0px 0px;
   height: 200px;
+  object-fit: cover;
 }
 
 .tituloFav h1 i {
@@ -835,6 +816,7 @@ footer .iconosFooter a {
 }
 .tablaQueri .tarjetaFav .tarjeta-fav-img img {
   height: 100%;
+  width: 100px;
 }
 .tablaQueri .tarjetaFav .tarjeta-fav-descripcion {
   display: flex;

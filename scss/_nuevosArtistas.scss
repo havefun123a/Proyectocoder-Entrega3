@@ -5,67 +5,32 @@
     align-items: center;
     flex-wrap: wrap;
     grid-area: artista;
-    @media (max-width: 1829px){
-        flex-direction: column;
-        width: 100%;
-    }
+    width: 95%;
     .tituloPrincipal {
         width: 100%;
     }
     .videoArtista {
         display: flex;
+        flex-direction: column;
         width: 100%;
-        @media (max-width: 1829px){
-            flex-direction: column;
-        }
-        @media (max-width: 1438px){
-            flex-direction: column;
-            width: 100%;
-        }
-        @media (max-width: 1040px) {
-            flex-direction: column;
-        }
-        iframe{
-            @media (max-width: 1829px){
-                    height: 800px;
-                    width: 800px;
-            }
-            @media (max-width: 1438px) {
-                height: 600px;
-                width: 100%;
-                }
-            @media (max-width: 1040px) {
-                height: 500px;
-                width: 100%;
-            }
-        }
     }
 
 
     .textoArtista {
-        width: 180px;
         font-size: 20px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin-left: 20px;
-        @media (max-width: 1829px){
-            margin-left: 0px;
-            margin-top: 30px;
-            flex-direction: row;
-            width: 100%;
-            justify-content: space-between;
-        }
-        @media (max-width: 1438px){
-            height: auto;
-            width: 100%;
-            justify-content: space-between;
-            margin-top: 40px;
-            margin-bottom: 100px;
-            margin-left: 0px;
-            flex-direction: row;
-        }
+        justify-content: space-between;
+        margin-top: 25px;
+        align-items: center;
+
         .textoInicio{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            p{
+                margin-bottom: 0px;
+            }
             @media (max-width: 1829px){
                 width: 80%;
                 display: flex;
@@ -78,6 +43,9 @@
         }
         .botonesInicio{
             height: 40px;
+            width: 110px;
+            display: flex;
+            align-items: center;
             @media (max-width: 1829px){
                 width: auto;
             }
