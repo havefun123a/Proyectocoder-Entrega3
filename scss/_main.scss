@@ -14,7 +14,7 @@ main {
     grid-template-areas: "artista artista artista top" "ascenso ascenso ascenso ascenso" "descubre descubre descubre lanzamiento" "fav fav fav img";
     justify-content: space-between;
     margin-top: 100px;
-    @media (max-width: 1387px){
+    @media (max-width: 1123px){
         display: flex;
         flex-direction: column;
         align-items: center;

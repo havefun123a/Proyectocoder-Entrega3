@@ -73,7 +73,7 @@ main {
   justify-content: space-between;
   margin-top: 100px;
 }
-@media (max-width: 1387px) {
+@media (max-width: 1123px) {
   .inicioMain {
     display: flex;
     flex-direction: column;
@@ -264,6 +264,11 @@ nav ul li input {
   margin-top: 25px;
   align-items: center;
 }
+@media (max-width: 1100px) {
+  .nuevosArtistas .textoArtista {
+    justify-content: center;
+  }
+}
 .nuevosArtistas .textoArtista .textoInicio {
   display: flex;
   justify-content: space-around;
@@ -281,7 +286,7 @@ nav ul li input {
     margin-right: 5px;
   }
 }
-@media (max-width: 870px) {
+@media (max-width: 1100px) {
   .nuevosArtistas .textoArtista .textoInicio {
     display: none;
   }
@@ -409,9 +414,9 @@ nav ul li input {
   width: 60px;
   height: 40px;
 }
-@media (max-width: 423px) {
+@media (max-width: 1123px) {
   .topSemanal {
-    width: 95%;
+    width: 80%;
   }
 }
 
@@ -426,11 +431,6 @@ nav ul li input {
 @media (max-width: 1367px) {
   .ascenso {
     justify-content: space-around;
-  }
-}
-@media (max-width: 1234px) {
-  .ascenso {
-    width: 80%;
   }
 }
 @media (max-width: 499px) {
@@ -576,9 +576,9 @@ nav ul li input {
   width: 60px;
   height: 40px;
 }
-@media (max-width: 423px) {
+@media (max-width: 1123px) {
   .lanzamientoContainer {
-    width: 95%;
+    width: 80%;
   }
 }
 
