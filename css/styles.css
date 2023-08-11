@@ -423,6 +423,11 @@ nav ul li input {
   flex-wrap: wrap;
   grid-area: ascenso;
 }
+@media (max-width: 1367px) {
+  .ascenso {
+    justify-content: space-around;
+  }
+}
 @media (max-width: 1234px) {
   .ascenso {
     width: 80%;

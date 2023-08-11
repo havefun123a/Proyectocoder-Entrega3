@@ -5,6 +5,9 @@
     align-items: center;
     flex-wrap: wrap;
     grid-area: ascenso;
+    @media (max-width: 1367px){
+        justify-content: space-around;
+    }
     @media (max-width: 1234px){
         width: 80%;
     }
