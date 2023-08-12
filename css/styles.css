@@ -478,6 +478,11 @@ nav ul li input {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 390px) {
+  .cartaAscenso {
+    width: 170px;
+  }
+}
 
 .buttonVer {
   background-color: rgba(212, 191, 32, 0.926);
@@ -521,6 +526,11 @@ nav ul li input {
   margin: 10px;
   padding-bottom: 5px;
   justify-content: flex-start;
+}
+@media (max-width: 390px) {
+  .favContainer .favoritosCartas .favoritoCarta {
+    width: 155px;
+  }
 }
 .favContainer .favoritosCartas .favoritoCarta img {
   border-radius: 10px 10px 0px 0px;
@@ -761,6 +771,11 @@ footer .iconosFooter a {
   border-radius: 10px 10px 0px 0px;
   height: 200px;
   object-fit: cover;
+}
+@media (max-width: 390px) {
+  .cartasArtistas .cartasContainer .cartaArtista {
+    width: 170px;
+  }
 }
 
 .tituloFav h1 i {
