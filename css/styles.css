@@ -478,9 +478,9 @@ nav ul li input {
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 390px) {
+@media (max-width: 411px) {
   .cartaAscenso {
-    width: 170px;
+    width: 180px;
   }
 }
 
@@ -527,9 +527,10 @@ nav ul li input {
   padding-bottom: 5px;
   justify-content: flex-start;
 }
-@media (max-width: 390px) {
+@media (max-width: 411px) {
   .favContainer .favoritosCartas .favoritoCarta {
-    width: 155px;
+    width: 165px;
+    margin: none;
   }
 }
 .favContainer .favoritosCartas .favoritoCarta img {
@@ -772,9 +773,9 @@ footer .iconosFooter a {
   height: 200px;
   object-fit: cover;
 }
-@media (max-width: 390px) {
+@media (max-width: 411px) {
   .cartasArtistas .cartasContainer .cartaArtista {
-    width: 170px;
+    width: 180px;
   }
 }
 

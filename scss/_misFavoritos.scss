@@ -17,8 +17,9 @@
         margin: 10px;
         padding-bottom: 5px;
         justify-content: flex-start;
-        @media (max-width: 390px){
-          width: 155px;
+        @media (max-width: 411px){
+          width: 165px;
+          margin: none;
         }
         img{
           border-radius: $b-radius;
