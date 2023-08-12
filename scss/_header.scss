@@ -32,6 +32,9 @@ header {
                 &:hover {
                     left: 0px;
                 }
+                @media (max-width: 560px){
+                    width: 75vw;
+                }
             }
             ul{
                 @media (max-width: 1145px){

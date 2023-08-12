@@ -136,6 +136,11 @@ header .containerNav {
     left: 0px;
   }
 }
+@media (max-width: 1145px) and (max-width: 560px) {
+  header .containerNav nav {
+    width: 75vw;
+  }
+}
 @media (max-width: 1145px) {
   header .containerNav nav ul {
     height: 400px;
@@ -431,11 +436,6 @@ nav ul li input {
 @media (max-width: 1367px) {
   .ascenso {
     justify-content: space-around;
-  }
-}
-@media (max-width: 499px) {
-  .ascenso {
-    justify-content: center;
   }
 }
 .ascenso .tituloAscenso {
